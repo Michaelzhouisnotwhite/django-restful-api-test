@@ -14,10 +14,22 @@
 pip install -r requirements.txt
 ```
 
+创建管理员
+
+```bash
+python manage.py createsuperuser
+```
+
 ### 2. 运行服务器
 
 ```bash
 python manage.py runserver
+```
+
+指定端口：
+
+```bash
+python manage.py runserver <your_host>:<your_port>
 ```
 
 运行结束后回显示server的ip地址
